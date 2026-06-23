@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(docker-compose up *)",
+      "Bash(npm run *)",
+      "Bash(lsof -ti:3000,3001)",
+      "Bash(git add *)",
+      "Bash(git commit *)"
+    ]
+  }
+}
