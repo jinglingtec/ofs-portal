@@ -5,7 +5,8 @@
       "Bash(npm run *)",
       "Bash(lsof -ti:3000,3001)",
       "Bash(git add *)",
-      "Bash(git commit *)"
+      "Bash(git commit *)",
+      "Bash(npm install *)"
     ]
   }
 }
