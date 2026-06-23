@@ -200,13 +200,26 @@ npm run seed
 - `GET /api/documents` - 获取文档列表
 - `POST /api/auth/login` - 用户登录
 
-## 部署
+## 部署到公网（分享给外部用户）
 
-### 生产环境部署
+### 🚀 快速部署（推荐）
 
-详见 [部署文档](./docs/deployment/README.md)
+部署到 Vercel（前端）+ Railway（后端），完全免费：
 
-### Docker 部署
+```bash
+# 查看分步命令
+cat DEPLOY_COMMANDS.md
+
+# 或使用自动化脚本
+./deploy.sh
+```
+
+**3 分钟内完成部署！** 详见：
+- 📝 [分步部署命令](./DEPLOY_COMMANDS.md) - 复制粘贴即可
+- 🚀 [快速部署指南](./QUICK_DEPLOY.md) - 3 分钟上手
+- 📚 [完整部署文档](./DEPLOYMENT_GUIDE.md) - 详细说明
+
+### 本地开发部署
 
 ```bash
 # 构建镜像
