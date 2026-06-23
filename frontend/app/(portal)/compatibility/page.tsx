@@ -308,7 +308,7 @@ export default function CompatibilityPage() {
                 >
                   <Row gutter={[16, 16]}>
                     {sensorList.map(sensor => {
-                      const sensorData = product.sensors[sensor.code]
+                      const sensorData = product.sensors[sensor.code as keyof typeof product.sensors]
                       return (
                         <Col key={sensor.code} xs={24} md={12} lg={8}>
                           <Card type="inner" size="small">
