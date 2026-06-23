@@ -188,7 +188,7 @@ export default function SensorDetailPage() {
         <div>
           <div style={{ fontWeight: 'bold' }}>{text}</div>
           <div style={{ fontSize: '12px', color: '#999' }}>
-            <Tag size="small">{record.platform}</Tag>
+            <Tag>{record.platform}</Tag>
           </div>
         </div>
       )
@@ -407,7 +407,7 @@ export default function SensorDetailPage() {
                       <div>
                         <Text strong>{doc.title}</Text>
                         <div style={{ marginTop: '4px' }}>
-                          <Tag size="small">{doc.type}</Tag>
+                          <Tag>{doc.type}</Tag>
                           <Text type="secondary" style={{ fontSize: '12px' }}>{doc.size}</Text>
                         </div>
                       </div>

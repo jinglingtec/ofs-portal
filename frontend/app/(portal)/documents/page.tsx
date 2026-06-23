@@ -386,9 +386,9 @@ export default function DocumentsPage() {
                       <Space direction="vertical" size={4} style={{ width: '100%', fontSize: '12px' }}>
                         <div>
                           <Text type="secondary">产品：</Text>
-                          <Tag size="small">{doc.productName}</Tag>
+                          <Tag>{doc.productName}</Tag>
                           <Text type="secondary">版本：</Text>
-                          <Tag size="small">{doc.version}</Tag>
+                          <Tag>{doc.version}</Tag>
                         </div>
                         <div>
                           <Text type="secondary">大小：</Text>
