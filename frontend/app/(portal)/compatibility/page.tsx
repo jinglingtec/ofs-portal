@@ -126,7 +126,7 @@ export default function CompatibilityPage() {
         <div>
           <div style={{ fontWeight: 'bold' }}>{text}</div>
           <div style={{ fontSize: '12px', color: '#999' }}>
-            <Tag size="small">{record.platform}</Tag>
+            <Tag style={{ fontSize: '11px' }}>{record.platform}</Tag>
             <span>{record.version}</span>
           </div>
         </div>
@@ -136,7 +136,7 @@ export default function CompatibilityPage() {
       title: (
         <div style={{ textAlign: 'center' }}>
           <div style={{ fontSize: '13px', fontWeight: 'bold' }}>{sensor.name}</div>
-          <Tag size="small" style={{ marginTop: '4px' }}>{sensor.category}</Tag>
+          <Tag style={{ marginTop: '4px' }}>{sensor.category}</Tag>
         </div>
       ),
       dataIndex: sensor.code,
@@ -314,7 +314,7 @@ export default function CompatibilityPage() {
                           <Card type="inner" size="small">
                             <div style={{ marginBottom: '8px' }}>
                               <Text strong>{sensor.name}</Text>
-                              <Tag size="small" style={{ marginLeft: '8px' }}>{sensor.category}</Tag>
+                              <Tag style={{ marginLeft: '8px' }}>{sensor.category}</Tag>
                             </div>
                             <div style={{ fontSize: '13px' }}>
                               <div style={{ marginBottom: '4px' }}>
