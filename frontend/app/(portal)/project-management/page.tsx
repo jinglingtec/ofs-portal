@@ -190,7 +190,7 @@ export default function ProjectManagementPage() {
       dataIndex: 'status',
       key: 'status',
       width: 100,
-      render: (status) => (
+      render: (status: keyof typeof statusColors) => (
         <Badge status={statusColors[status] as any} text={statusLabels[status]} />
       )
     },
@@ -199,7 +199,7 @@ export default function ProjectManagementPage() {
       dataIndex: 'priority',
       key: 'priority',
       width: 80,
-      render: (priority) => (
+      render: (priority: keyof typeof priorityColors) => (
         <Tag color={priorityColors[priority]}>{priorityLabels[priority]}</Tag>
       )
     },

@@ -407,7 +407,7 @@ export default function DocumentsPage() {
                         <div>
                           <Space size={4} wrap>
                             {doc.tags.map(tag => (
-                              <Tag key={tag} size="small">{tag}</Tag>
+                              <Tag key={tag}>{tag}</Tag>
                             ))}
                           </Space>
                         </div>
